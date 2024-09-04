@@ -1,0 +1,10 @@
+<dl>
+  {% for item in site.data.info %}
+  <dt>
+    <strong>{{ item.name }}</strong>
+  </dt>
+  <dd>
+    <a href="{{ item.link }}" target="_blank">{{ item.displayText }}</a>
+  </dd>
+  {% endfor %}
+</dl>
