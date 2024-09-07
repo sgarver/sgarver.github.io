@@ -17,7 +17,7 @@ html {
     --color-light: #f2f2f2;
     --color-dark: #121212;
     --color-dark2: #787878;
-    --color-accent: #9966ff; /*yellow;*/
+    --color-accent: #9966ff;
     --color-accent2: #9966ff;
 
     color: var(--color-dark);
@@ -71,6 +71,7 @@ h1 {
     color: var(--color-accent);
     font-size: 4rem;
     font-weight: bold;
+    opacity: 0.5;
 }
 
 h2 {
