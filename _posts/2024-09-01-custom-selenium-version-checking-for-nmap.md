@@ -2,13 +2,9 @@
 layout: post
 author: _tephen
 ---
-
-A custom Selenium version checking script for the Nmap Scripting Engine (NSE).
-
 This script is handy for checking running instances of Selenium Server. A possible home for the SeleniumGreed crypto-miner.
 
 A thorough [explanation of SeleniumGreed](https://www.selenium.dev/blog/2024/protecting-unsecured-selenium-grid/) and how to mitigate can be found on the official Selenium blog.
-
 
 ```lua
 local http = require("http")
