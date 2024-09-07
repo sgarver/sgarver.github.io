@@ -2,7 +2,7 @@
 layout: post
 author: _tephen
 ---
-A Custom Selenium Version Checker for Nmap.
+Unmasking Hidden Threats: A Custom Selenium Version Checker for Nmap
 
 In the ever-evolving world of cybersecurity, vigilance is key. We've crafted a powerful custom script for the Nmap Scripting Engine (NSE) that acts as a detective, pinpointing running instances of Selenium Server. Why does this matter? Because these instances can be a hotbed for malicious activity, including the notorious SeleniumGreed crypto-miner.
 
