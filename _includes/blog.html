@@ -6,7 +6,7 @@
   </dt>
   <dd>
     {{ post.excerpt }}
-    <time datetime="{{ post.date }}">{{ post.date | date_to_string }} | </time>
+    <time datetime="{{ post.date }}">Published on {{ post.date | date_to_string }} | </time>
     <a href="{{ post.url }}">full article &raquo;</a>
   </dd>
     {% endfor %}
