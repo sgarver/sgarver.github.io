@@ -4,7 +4,7 @@ layout: default
 <main>
   {% include header.html %}
   {{ content }}
-  by {{ page.author }} <time datetime="{{ post.date }}">| last updated on {{ page.last-modified-date | date_to_string }}</time>
+  by {{ page.author }} <time datetime="{{ page.updated }}">| last updated on {{ page.updated | date_to_string }}</time>
 </main>
 <aside>
   {% include info.html %}

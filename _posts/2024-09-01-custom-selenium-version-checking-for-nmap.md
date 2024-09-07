@@ -1,6 +1,7 @@
 ---
 layout: post
 author: _tephen
+updated: "2024-09-07"
 ---
 This script is handy for checking running instances of Selenium Server. A possible home for the SeleniumGreed crypto-miner.
 
