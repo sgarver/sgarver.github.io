@@ -1,1 +1,2 @@
-# sgarver.github.io
+# Beware of wild computers.
+## An ethical hacking blog.
