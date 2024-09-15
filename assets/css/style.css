@@ -28,6 +28,7 @@ html {
 
 .fade {
     background: var(--color-dark);
+    background-attachment: fixed;
     background: radial-gradient(circle, var(--color-dark2) 20%, black 90%);
 }
 
