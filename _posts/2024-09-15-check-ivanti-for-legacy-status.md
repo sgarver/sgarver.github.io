@@ -66,5 +66,5 @@ Sources:
 - [Metasploit Framework](https://github.com/rapid7/metasploit-framework)
 - [cve.org](https://www.cve.org)
 - [Invanti Security Advisory](https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022)
-- [Bleeping Compouter](https://www.bleepingcomputer.com/news/security/ivanti-fixes-maximum-severity-rce-bug-in-endpoint-management-software/)
+- [Bleeping Computer](https://www.bleepingcomputer.com/news/security/ivanti-fixes-maximum-severity-rce-bug-in-endpoint-management-software/)
 
