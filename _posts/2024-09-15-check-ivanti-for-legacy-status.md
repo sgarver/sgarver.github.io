@@ -10,20 +10,13 @@ I created a simple NSE script to detect an unpatched Ivanti Connect Secure insta
 The logic is Based on the check function used in this Metasploit Framework module:  
 exploit/linux/http/ivanti_connect_secure_rce_cve_2024_21893
 
-Related CVEs:
-
-- [CVE-2024-29847](https://www.cve.org/CVERecord?id=CVE-2024-29847) 10 Critical
-- [CVE-2023-39336](https://www.cve.org/CVERecord?id=CVE-2023-39336) 9.6 Critical
-- [CVE-2024-21887](https://www.cve.org/CVERecord?id=CVE-2024-21887) 9.1 Critical
-- [CVE-2024-21893](https://www.cve.org/CVERecord?id=CVE-2024-21893) 8.2 High
-- [CVE-2023-46805](https://www.cve.org/CVERecord?id=CVE-2023-46805) 8.2 High
-
-Background:
-
-- [Metasploit Framework](https://github.com/rapid7/metasploit-framework)
-- [cve.org](https://www.cve.org)
-- [Invanti Security Advisory](https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022)
-- [Bleeping Compouter (Blog Post)](https://www.bleepingcomputer.com/news/security/ivanti-fixes-maximum-severity-rce-bug-in-endpoint-management-software/)
+|CVE|Score|Severity|
+|-------|--------|---------|
+|[CVE-2024-29847](https://www.cve.org/CVERecord?id=CVE-2024-29847)|10|Critical|
+|[CVE-2023-39336](https://www.cve.org/CVERecord?id=CVE-2023-39336)|9.6|Critical|
+|[CVE-2024-21887](https://www.cve.org/CVERecord?id=CVE-2024-21887)|9.1|Critical|
+|[CVE-2024-21893](https://www.cve.org/CVERecord?id=CVE-2024-21893)|8.2|High|
+|[CVE-2023-46805](https://www.cve.org/CVERecord?id=CVE-2023-46805)|8.2|High|
 
 ```lua
 -- ivanti-unpatched.nse
@@ -68,4 +61,10 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 16.16 seconds
 ```
 
+Sources:
+
+- [Metasploit Framework](https://github.com/rapid7/metasploit-framework)
+- [cve.org](https://www.cve.org)
+- [Invanti Security Advisory](https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022)
+- [Bleeping Compouter](https://www.bleepingcomputer.com/news/security/ivanti-fixes-maximum-severity-rce-bug-in-endpoint-management-software/)
 
