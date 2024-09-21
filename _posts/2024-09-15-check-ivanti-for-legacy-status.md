@@ -1,13 +1,13 @@
 ---
 layout: post
 author: _tephen
-updated: "2024-09-16"
+updated: "2024-09-21"
 ---
-Legacy versions of Ivanti Connect Secure are affected by several CVE's.
+Legacy versions of Ivanti Connect Secure are affected by critical and high impact vulnerabilities.
 
-I created a simple NSE script to detect an unpatched Ivanti Connect Secure installations.
+Here is a simple Nmap Scripting Engine (NSE) script that can detect older, unpatched versions of Ivanti Connect Secure installations.
 
-The logic is Based on the check function used in this Metasploit Framework module:  
+The logic used in the check is based on the check function used in this Metasploit Framework module:  
 exploit/linux/http/ivanti_connect_secure_rce_cve_2024_21893
 
 |CVE|Score|Severity|
