@@ -13,6 +13,7 @@
 html {
     font-family: "NHaasGrotesk", sans-serif;
     font-size: 100%;
+    font-size: 1.4vw;
 
     --color-light: #f2f2f2;
     --color-dark: #121212;
@@ -44,6 +45,10 @@ body {
     margin: 0;
     padding: 0 2rem;
     height: calc(100vh);
+}
+
+p {
+    line-height: 1.4rem;
 }
 
 p, dl, h1, h2, h3 {
